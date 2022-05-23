@@ -780,7 +780,7 @@ class Header extends React.Component {
                                     <li className="mobile__list__item">
                                         <a
                                             className="mobile__list__link"
-                                            href="https://t.me/joinchat/LcDbAxahMjIxiRFhiDEJ2g"
+                                            href="https://t.me/LcDbAxahMjIxiRFhiDEJ2g"
                                             target="_blank"
                                             /*onClick={this._onNavigate.bind(
                                                 this,

@@ -324,16 +324,8 @@ Footer = BindToChainState(Footer);
 class Social extends Component {
     render() {
         let socialArr = [
-            { item: "btc", href: "https://bitcointalk.org/index.php?topic=5125670", img: "btc" },
-            { item: "vk", href: "https://vk.com/localcoin", img: "vk" },
-            { item: "tm", href: "https://t.me/LocalCoinIS", img: "tm" },
-            { item: "discord", href: "https://discord.gg/vzxSzYN", img: "s-584" },
-            { item: "medium", href: "https://medium.com/@localcoinis", img: "m-1" },
-            { item: "golos", href: "https://golos.io/@localcoin", img: "s-574" },
-            { item: "reddit", href: "https://www.reddit.com/r/LocalCoinIs", img: "redd" },
-            { item: "steemit", href: "https://steemit.com/@localcoin", img: "s-576" },
-            { item: "twitter", href: "https://twitter.com/LocalCoinIS", img: "tw" },
-            { item: "coinmarket", href: "https://coinmarketcap.com/exchanges/localcoin-dex/", img: "cmc" },
+            { item: "vk", href: "https://vk.com/homepesa", img: "vk" },
+            { item: "tm", href: "https://t.me/homepesa", img: "tm" }
         ];
 
         let list = socialArr.map((item, i) => {

@@ -28,7 +28,7 @@ class DepositWithdrawAssetSelector extends React.Component {
                     label: backedCoin,
                     gateway: gateway,
                     gateFee: item.gateFee,
-                    issuer: item.issuerId || "1.2.96397" //Fall back to open ledger
+                    issuer: item.issuerId || "1.2.9" //Fall back to open ledger
                 };
             } else {
                 return null;
@@ -38,7 +38,7 @@ class DepositWithdrawAssetSelector extends React.Component {
         let coinArr = [];
 
         if (!(this.props.includeLLC === false)) {
-            coinArr.push({id: "LLC", label: "LLC", gateway: ""});
+            coinArr.push({id: "KES", label: "KES", gateway: ""});
         }
 
         props.backedCoins.forEach(coin => {
@@ -48,7 +48,7 @@ class DepositWithdrawAssetSelector extends React.Component {
                     return item;
                 })
                 .filter(item => {
-                    if (item.id == "LLC") return true;
+                    if (item.id == "KES") return true;
                     if (include) {
                         return include.includes(item.id);
                     }

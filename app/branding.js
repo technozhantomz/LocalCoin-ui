@@ -77,7 +77,7 @@ export function getUnits(chainId = "8d1be242") {
  */
 
 export function getMyMarketsBases() {
-    return ["KES"];
+    return ["KES","USD", "CNY", "BTC", "EUR", "GBP"];
 }
 
 /**

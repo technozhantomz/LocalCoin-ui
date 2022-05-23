@@ -89,10 +89,8 @@ class SettingsStore {
                 "ja"
             ],
             apiServer: apiServer,
-            unit: [
-                CORE_ASSET
-                // "USD", "CNY", "EUR", "GBP",
-                // "BTC"
+            unit: [// Preferred units of account
+                "USD", "CNY", "EUR", "GBP"
             ],
             showSettles: [{translate: "yes"}, {translate: "no"}],
             showAssetPercent: [{translate: "yes"}, {translate: "no"}],
