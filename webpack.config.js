@@ -65,11 +65,11 @@ module.exports = function(env) {
             __HASH_HISTORY__: !!env.hash,
             __BASE_URL__: JSON.stringify(baseUrl),
             __UI_API__: JSON.stringify(
-                env.apiUrl || "https://ui.localcoin.is/api"
+                env.apiUrl || "https://node.commodity.llc"
             ),
             __TESTNET__: !!env.testnet,
             __DEPRECATED__: !!env.deprecated,
-            DEFAULT_SYMBOL: "LLC"
+            DEFAULT_SYMBOL: "KES"
         }),
         new webpack.ContextReplacementPlugin(
             /moment[\/\\]locale$/,

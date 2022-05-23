@@ -50,10 +50,10 @@ class FeaturedMarkets extends React.Component {
 
         this.marketsByChain = {
             [this.state.chainID]: [
-                ["USD", "LLC"],
+                ["USD", "KES"],
                 ["USD", "CNY"],
-                ["LLC", "CNY"],
-                ["BTC", "LLC"]
+                ["KES", "CNY"],
+                ["BTC", "KES"]
             ]
         };
 

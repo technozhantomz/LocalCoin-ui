@@ -142,7 +142,7 @@ class FeeGroup extends React.Component {
                             <td style={{textAlign: "right"}}>
                                 {assetAmount}
                                 {amount !== 0 &&
-                                    preferredUnit !== "LLC" && [
+                                    preferredUnit !== "KES" && [
                                         " / ",
                                         equivalentAmount
                                     ]}
@@ -151,7 +151,7 @@ class FeeGroup extends React.Component {
                                 {feeIdx !== 8 ? assetAmountLTM : null}
                                 {feeIdx !== 8 &&
                                     amount !== 0 &&
-                                    preferredUnit !== "LLC" && [
+                                    preferredUnit !== "KES" && [
                                         " / ",
                                         equivalentAmountLTM
                                     ]}
@@ -169,7 +169,7 @@ class FeeGroup extends React.Component {
                             <td style={{textAlign: "right"}}>
                                 {assetAmountLTM}
                                 {amount !== 0 &&
-                                    preferredUnit !== "LLC" && [
+                                    preferredUnit !== "KES" && [
                                         " / ",
                                         equivalentAmountLTM
                                     ]}

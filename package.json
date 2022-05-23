@@ -16,8 +16,8 @@
     "yarn": ">=0.21.3"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/localcoinis/localcoin-ui"
+    "type": "git", 
+    "url": "git://github.com/technozhantomz/localcoin-ui"
   },
   "main": "build/electron/index.js",
   "scripts": {
@@ -130,8 +130,8 @@
     "alt-container": "^1.0.0",
     "alt-react": "git+https://github.com/bitshares/react.git",
     "bignumber.js": "^4.0.0",
-    "bitsharesjs": "git+https://github.com/LocalCoinIS/localcoinjs.git",
-    "bitsharesjs-ws": "git+https://github.com/LocalCoinIS/localcoinjs-ws.git",
+    "bitsharesjs": "git+https://github.com/technozhantomz/localcoinjs.git",
+    "bitsharesjs-ws": "git+https://github.com/technozhantomz/localcoinjs-ws.git",
     "browser-locale": "^1.0.3",
     "classnames": "^2.2.1",
     "cookies-js": "^1.2.1",

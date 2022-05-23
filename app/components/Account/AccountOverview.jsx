@@ -65,12 +65,9 @@ class AccountOverview extends React.Component {
             waitLoadMore: true,
             tokens: [],
             alwaysShowAssets: [
-                "LLC",
-                "BTC", "ETH", "XMR", "DASH", "LTC", "USDT",
-                "EUR", "USD", "GBP", "CNY", "RUB", "UAH"
-                //,
-                //"USD",
-                //"CNY"
+                "KES",
+                "USD",
+                "CNY"
                 // "OPEN.BTC",
                 // "OPEN.USDT",
                 // "OPEN.ETH",
@@ -129,7 +126,7 @@ class AccountOverview extends React.Component {
                     isBridgeModalVisible: true,
                     currentAsset: asset ? asset : null,
                     activeTab: tab,
-                    isDashboard: asset === "LLC" ? false : true
+                    isDashboard: asset === "KES" ? false : true
                 });
             }
         );
@@ -596,7 +593,7 @@ class AccountOverview extends React.Component {
                 ) ||
                 canTrade;
 
-            const canBuy = !!this.props.bridgeCoins.get(symbol) || asset.get("symbol") === "LLC" ;
+            const canBuy = !!this.props.bridgeCoins.get(symbol) || asset.get("symbol") === "KES" ;
 
             const assetAmount = balanceObject.get("balance");
 
@@ -857,7 +854,7 @@ class AccountOverview extends React.Component {
 
                         const canBuy = !!this.props.bridgeCoins.get(
                             asset.get("symbol")
-                        )  || asset.get("symbol") === "LLC" ;
+                        )  || asset.get("symbol") === "KES" ;
 
                         const notCore = asset.get("id") !== "1.3.0";
                         let {market} = assetUtils.parseDescription(
@@ -872,7 +869,7 @@ class AccountOverview extends React.Component {
                             ? market
                             : core_asset
                                 ? core_asset.get("symbol")
-                                : "LLC";
+                                : "KES";
                         let directMarketLink = notCore ? (
                             <Link
                                 to={`/market/${preferredMarket}_${asset.get(

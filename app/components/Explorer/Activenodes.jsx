@@ -22,7 +22,7 @@ class ActivenodeInfo extends React.Component {
         return [
             [ counterpart.translate("explorer.activenodes.current_activenode"), this.props.activeAccountName ],
             [ counterpart.translate("explorer.activenodes.active_activenodes"), this.props.countActivenodes  ],
-            [ counterpart.translate("explorer.activenodes.pay_per_block"     ), "0.065000 LLC"                ],
+            [ counterpart.translate("explorer.activenodes.pay_per_block"     ), "0.065000 KES"                ],
             [ counterpart.translate("explorer.activenodes.daily_approximate" ),  this.props.dailyApproximate  ],
         ];
     }

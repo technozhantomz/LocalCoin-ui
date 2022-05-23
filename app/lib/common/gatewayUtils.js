@@ -63,7 +63,7 @@ export function getAssetAndGateway(symbol) {
     return {selectedGateway, selectedAsset};
 }
 
-export function updateGatewayBackers(chain = "806101b8") {
+export function updateGatewayBackers(chain = "8d1be242") {
     // Only fetch this when on desired chain, default to main chain
     if (!Apis.instance().chain_id) return;
     if (Apis.instance().chain_id.substr(0, 8) === chain) {

@@ -9,7 +9,7 @@
  * @returns {string}
  */
 export function getWalletName() {
-    return "LocalCoin";
+    return "Homepesa Org";
 }
 
 /**
@@ -17,7 +17,7 @@ export function getWalletName() {
  * @returns {string}
  */
 export function getWalletURL() {
-    return "https://wallet.localcoin.is";
+    return "https://wallet.commodity.llc";
 }
 
 /**
@@ -27,7 +27,7 @@ export function getWalletURL() {
  */
 export function getFaucet() {
     return {
-        url: "https://tapin.localcoin.is/", // 2017-12-infrastructure worker proposal
+        url: "https://agent.commodity.llc/", // 2017-12-infrastructure worker proposal
         show: true,
         editable: false
     };
@@ -64,9 +64,9 @@ export function getDefaultLogin() {
  *
  * @returns {[string,string,string,string,string,string]}
  */
-export function getUnits(chainId = "806101b8") {
-    if (chainId === "806101b8")
-        return ["BTS", "USD", "CNY", "BTC", "EUR", "GBP", "RUB", "LLC", "ETH", "XMR", "DASH", "LTC", "USDT", "RUB", "UAH"];
+export function getUnits(chainId = "8d1be242") {
+    if (chainId === "8d1be242")
+        return ["BTS", "USD", "CNY", "BTC", "EUR", "GBP", "RUB", "KES", "ETH", "XMR", "DASH", "LTC", "USDT", "RUB", "UAH"];
     else if (chainId === "39f5e2ed") return ["TEST"];
 }
 
@@ -77,7 +77,7 @@ export function getUnits(chainId = "806101b8") {
  */
 
 export function getMyMarketsBases() {
-    return ["LLC", "ETH", "BTC", "LTC", "XMR", "DASH", "BAT", "USDT", "LINK", "USDC", "TUSD", "USDS", "RUB"];
+    return ["KES"];
 }
 
 /**
@@ -88,7 +88,7 @@ export function getMyMarketsBases() {
 export function getMyMarketsQuotes() {
     let tokens = {
         nativeTokens: [
-                "LLC", "USDT", "BTC", "XMR", "ETH", "LTC", "DASH", "LINK", "USDC", "TUSD", "USDS", "EURS", "HT", "BAT", "SNT", "OMG", "LAMB", "ZB", "HT", "DAI", "ZRX", "USD", "EUR", "CNY", "RUB", "BRL", "GBP", "AUD", "UAH", "TRY", "PLN", "NGN", "KRW", "JPY", "IDR", "VND", "INR", "CTK"
+                "KES", "USDT", "BTC", "XMR", "ETH", "LTC", "DASH", "LINK", "USDC", "TUSD", "USDS", "EURS", "HT", "BAT", "SNT", "OMG", "LAMB", "ZB", "HT", "DAI", "ZRX", "USD", "EUR", "CNY", "RUB", "BRL", "GBP", "AUD", "UAH", "TRY", "PLN", "NGN", "KRW", "JPY", "IDR", "VND", "INR", "CTK"
             ]
             //     "GOLD",
             //     "KRW",

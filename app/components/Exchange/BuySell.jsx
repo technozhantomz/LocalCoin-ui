@@ -428,7 +428,7 @@ class BuySell extends React.Component {
         const minExpirationDate = moment();
 
         let currencyHasInbridge =
-            base.get("symbol") === "LLC" || quote.get("symbol") === "LLC";
+            base.get("symbol") === "KES" || quote.get("symbol") === "KES";
 
         let depositBtns = this._renderDepositBtns();
         return (
@@ -498,7 +498,7 @@ class BuySell extends React.Component {
                         <div className="ml-auto">
                             {currencyHasInbridge &&
                                 this.props[isBid ? "base" : "quote"].get("symbol") !==
-                                "LLC" ? (
+                                "KES" ? (
                                     <div className="float-right buy-sell-deposit">
                                         <a onClick={this.props.onShowModal}>
                                             <TranslateWithLinks

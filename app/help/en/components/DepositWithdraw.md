@@ -1,6 +1,6 @@
 [# receive]
-### Receiving LLC
-In order to receive LLC from another person or from an exchange, simply give them your account name: **{account}**
+### Receiving KES
+In order to receive KES from another person or from an exchange, simply give them your account name: **{account}**
 
 [# deposit-short]
 ### Depositing or withdrawing coins

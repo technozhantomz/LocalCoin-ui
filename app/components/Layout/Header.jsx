@@ -126,7 +126,7 @@ class Header extends React.Component {
         this.state = {
             active: context.location.pathname,
             accountsListDropdownActive: false,
-            selectedAsset: "LLC",
+            selectedAsset: "KES",
             isBridgeModalVisible: false,
             defaultAccount: "1.2.3",
             defaultAsset: "USD"

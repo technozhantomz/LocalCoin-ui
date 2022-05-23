@@ -260,7 +260,7 @@ class AccountActivenodes extends React.Component {
             if (!symbol) return;
 
             
-            if(symbol.toUpperCase() === "LLC") {
+            if(symbol.toUpperCase() === "KES") {
                 let precision = utils.get_asset_precision(assetObject.get("precision"));
                 balance = balanceObject.get("balance") / precision;
             }
