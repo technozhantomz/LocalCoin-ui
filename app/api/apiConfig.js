@@ -1,7 +1,7 @@
 export const settingsAPIs = {
-    DEFAULT_WS_NODE: "wss://ru.localcoin.is",
+    DEFAULT_WS_NODE: "wss://node.commodity.llc/ws",
     WS_NODE_LIST: [
-        {url: "wss://node.commodity.llc", location: "Nairibi Kenya"}
+        {url: "wss://node.commodity.llc/ws", location: "Nairibi Kenya"}
     ],
     DEFAULT_FAUCET: "https://agent.commodity.llc", // 2018-12-infrastructure worker proposal
     TESTNET_FAUCET: "https://faucet.testnet.localcoin.is",
