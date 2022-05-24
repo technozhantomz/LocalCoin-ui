@@ -90,7 +90,7 @@ class SettingsStore {
             ],
             apiServer: apiServer,
             unit: [// Preferred units of account
-                "USD", "CNY", "EUR", "GBP"
+                "KES", "CNY", "USD"
             ],
             showSettles: [{translate: "yes"}, {translate: "no"}],
             showAssetPercent: [{translate: "yes"}, {translate: "no"}],
