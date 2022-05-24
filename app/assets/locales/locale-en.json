@@ -1770,7 +1770,7 @@
         "create_password": "Create a new account using a password",
         "create_success": "Your local wallet has been created",
         "create_text": "The Homepesa Society local wallet is stored in your browser, it is not stored in the cloud. A wallet can contain multiple accounts and can be easily transferred between browsers and computers using a backup file.",
-        "create_w_a": "Create a local wallet containing an account",
+        "create_w_a": "Create a local wallet",
         "create_wallet": "Create new local wallet",
         "create_wallet_backup": "Create new wallet from backup",
         "current_pass": "Current password",
