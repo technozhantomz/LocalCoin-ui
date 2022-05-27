@@ -76,7 +76,7 @@ class FeaturedMarkets extends React.Component {
         let {lowVolumeMarkets} = nextProps || this.props;
         let markets =
             this.marketsByChain[this.state.chainID] ||
-            this.marketsByChain["4018d784"];
+            this.marketsByChain["8d1be242"];
 
         markets = markets.filter(pair => {
             let [first, second] = pair;

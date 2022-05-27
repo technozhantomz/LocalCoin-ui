@@ -16,7 +16,7 @@
     "yarn": ">=0.21.3"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git://github.com/technozhantomz/localcoin-ui"
   },
   "main": "build/electron/index.js",
