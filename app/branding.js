@@ -9,7 +9,7 @@
  * @returns {string}
  */
 export function getWalletName() {
-    return "Homepesa Org";
+    return "Homepesa Society";
 }
 
 /**
@@ -17,7 +17,7 @@ export function getWalletName() {
  * @returns {string}
  */
 export function getWalletURL() {
-    return "https://wallet.commodity.llc";
+    return "https://kenya.commodity.llc";
 }
 
 /**
@@ -77,7 +77,7 @@ export function getUnits(chainId = "8d1be242") {
  */
 
 export function getMyMarketsBases() {
-    return ["KES","USD", "CNY", "BTC", "EUR", "GBP"];
+    return ["KES","USD", "CNY", "EUR", "GBP"];
 }
 
 /**
@@ -247,9 +247,9 @@ export function getSmartCoinMarkets() {
 }
 
 export function getDashboardAssets() {
-    return ["BTC", "ETH", "XMR", "DASH", "LTC", "USDT"];
+    return ["KES", "USD", "EUR", "CNY", "GBP"];
 }
 
 export function getDefaultBorrowAssets() {
-    return ["USD", "EUR", "CNY", "GBP", "RUB", "BRL", "UAH"];
+    return ["USD", "EUR", "CNY", "GBP"];
 }

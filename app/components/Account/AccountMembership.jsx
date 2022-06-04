@@ -181,7 +181,7 @@ class AccountMembership extends React.Component {
                                         </h4>
                                         <Translate content="account.member.referral_text" />
                                         :
-                                        <h5>https://wallet.localcoin.is/?r=${account.name}
+                                        <h5>https://kenya.commodity.llc/?r=${account.name}
                                        </h5>
                                     </div>
                                 ) : null}

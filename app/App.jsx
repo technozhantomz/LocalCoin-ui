@@ -597,7 +597,7 @@ class App extends React.Component {
 
     downloadVersion() {
         var a = document.createElement("a");
-        a.href = "https://localcoin.is/#download";
+        a.href = "https://kenya.commodity.llc/#download";
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.style = "display: none;";
